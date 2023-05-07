@@ -56,14 +56,12 @@ img {
 /*================ header ====================*/
 .top-header {
   border-bottom: 1px solid #E7E9FC;
-}
-
-.top-header-container {
   display: flex;
   align-items: center;
   padding-top: 24px;
   padding-bottom: 24px; 
 }
+
 
 .top-nav {
   display: flex;
