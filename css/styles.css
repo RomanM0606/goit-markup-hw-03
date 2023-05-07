@@ -54,14 +54,15 @@ img {
 }
 
 /*================ header ====================*/
-
+.top-header {
+  border-bottom: 1px solid #E7E9FC;
+}
 
 .top-header-container {
   display: flex;
   align-items: center;
   padding-top: 24px;
-  padding-bottom: 24px;
-  border-bottom: 1px solid #E7E9FC;
+  padding-bottom: 24px; 
 }
 
 .top-nav {
@@ -360,6 +361,7 @@ img {
 .services-list-subject-container {
   padding: 32px 16px;
   border: 1px solid #E7E9FC;
+  border-top: none;
 }
 
 .services-list-item {
