@@ -280,6 +280,10 @@ img {
   padding: 100px 0; 
 }
 
+.footer-container {
+  display: inline-block;
+}
+
 .logo-footer {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -297,7 +301,6 @@ img {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  display: inline-block;
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
