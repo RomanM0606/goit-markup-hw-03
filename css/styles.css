@@ -92,6 +92,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding: 24px 0;
 }
 
 .menu {
@@ -99,14 +100,11 @@ img {
   gap: 40px;
 }
 
-.menu-link {
-padding: 24px 0;
-}
-
 .contacts {
   font-style:normal;
   margin-left: auto;
 }
+
 .contacts-menu {
   display: flex;
   gap: 40px; 
