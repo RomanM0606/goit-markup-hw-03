@@ -70,8 +70,7 @@ img {
 
 .top-nav {
   display: flex;
-  align-items: center;
-  column-gap: 76px;
+  align-items: center; 
 }
 
 .logo-header {
@@ -85,6 +84,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px;
 }
 
 .logo-header-studio {
@@ -101,7 +101,7 @@ img {
 
 .menu {
   display: flex;
-  column-gap: 40px;
+  gap: 40px;
 }
 
 .contacts {
@@ -110,7 +110,7 @@ img {
 }
 .contacts-menu {
   display: flex;
-  column-gap: 40px; 
+  gap: 40px; 
 }
 
 .menu-link:hover,
@@ -155,11 +155,11 @@ img {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  display: flex;
+  display: block;
   align-items: center;
   letter-spacing: 0.04em;
   color: #ffffff;
-  min-width: 168px;
+  min-width: 169px;
   padding: 16px 32px;
   background: #4d5ae5;
   border-radius: 4px;
@@ -177,7 +177,7 @@ img {
 
 .info-section-item-list {
   display: flex;
-  column-gap: 24px;
+  gap: 24px;
 }
 
 .info-section-item {
@@ -208,7 +208,7 @@ img {
 
 .work-list {
   display: flex;
-  column-gap: 24px; 
+  gap: 24px; 
 }
 
 .work-list-item {
@@ -233,12 +233,13 @@ img {
 
 .team-section-list {
   display: flex;
-  column-gap: 24px;
+  gap: 24px;
 }
 
 .team-section-item {
   background-color: #FFFFFF;
   flex-basis: calc((100%-72px)/4);
+  border-radius: 0px 0px 4px 4px;
 }
 
 
@@ -253,6 +254,10 @@ img {
   margin-bottom: 72px;
 }
 
+.team-section-subtitle-container {
+  padding: 32px 16px;
+}
+
 .team-section-subtitle {
   font-weight: 500;
   font-size: 20px;
@@ -260,7 +265,6 @@ img {
   text-align: center;
   letter-spacing: 0.02em;
   color: #2E2F42;
-  margin-top: 32px;
   margin-bottom: 8px;
 }
 
@@ -270,7 +274,6 @@ img {
   text-align: center;
   letter-spacing: 0.02em;
   color: #434455;
-  margin-bottom: 32px;
 }
 
 .footer {
@@ -342,7 +345,7 @@ img {
 .filter-button-list {
   display: flex;
   justify-content: center;
-  column-gap: 24px;
+  gap: 24px;
   margin-bottom: 72px;
 }
 
@@ -358,6 +361,10 @@ img {
   column-gap: 24px;
 }
 
+.services-list-subject-container {
+  padding: 32px 16px;
+}
+
 .services-list-item {
 flex-basis: calc(100%-24px*2)/3;
 }
@@ -368,7 +375,6 @@ flex-basis: calc(100%-24px*2)/3;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2E2F42;
-  margin-top: 32px;
   margin-bottom: 8px;
 }
 
@@ -377,5 +383,4 @@ flex-basis: calc(100%-24px*2)/3;
   line-height: 1.5;    
   letter-spacing: 0.02em;
   color: #434455;
-  margin-bottom: 32px;
 }
